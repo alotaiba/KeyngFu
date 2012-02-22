@@ -31,14 +31,6 @@ h6 {
     font-size: 15px
 }
 
-a {
-    color: #f1da36;
-}
-
-a:hover {
-    color: #cbebff;
-}
-
 .header_title {
     font-size: 50px;
     font-style: oblique;
@@ -131,6 +123,14 @@ a.drag-button .arrow {
     background: linear-gradient(top,  #45484d 0%,#000000 100%);
     color: #FEFEFE;
     margin-top: 20px;
+}
+
+#footer a {
+    color: #f1da36;
+}
+
+#footer a:hover {
+    color: #cbebff;
 }
 
 .footer_content {
