@@ -1,0 +1,12 @@
+
+a.drag-button {
+    text-align: center;
+}
+
+a.drag-button span {
+    display: inline;
+}
+
+a.drag-button .text {
+    margin: 0;
+}
