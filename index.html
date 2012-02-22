@@ -38,7 +38,7 @@
         </ul>
       </div>
       <div class="grid_6">
-        <a href='javascript:(function(){for(var b=document.getElementsByTagName("input"),d="blur,focus,click,change,keydown,keyup,keypress".split(","),a=0;a<b.length;a++)if(b[a].readOnly||"password"==b[a].type){b[a].readOnly=!1;for(var c=0;c<d.length;c++)b[a]["on"+d[c]]=null}})();' onclick='javascript:alert("Drag me to your Bookmarks bar");' class="drag-button">
+        <a href='javascript:(function(){for(var elements=document.getElementsByTagName("input"),events="blur,focus,click,change,keydown,keyup,keypress".split(","),count=0,i=0;i<elements.length;i++)if(elements[i].readOnly){elements[i].readOnly=!1;for(var n=0;n<events.length;n++)elements[i]["on"+events[n]]=null;count++}if(count){var body=document.body,width=window.innerWidth+"px;",style="font-size:20px;color:#000;background:#FFFF00;text-align:center;padding:10px 0;position:fixed;border:1px solid #000;z-index:100000;direction:ltr;font-weight:bold;width:"+width,flash_message=document.createElement("div");flash_message.setAttribute("style",style);flash_message.appendChild(document.createTextNode("Fields have been KeyngFu\u0027d!"));body.insertBefore(flash_message,body.firstChild);flash_message.style.opacity=flash_message.style.opacity||1;var interval=13,duration=2500,update_value=duration/interval,fade_out=setInterval(function(){0>=flash_message.style.opacity?(flash_message.parentNode.removeChild(flash_message),clearInterval(fade_out)):flash_message.style.opacity-=1/update_value},interval)}else alert("There are no fields to re-enable!");})();' onclick='javascript:alert("Drag me to your Bookmarks bar");' class="drag-button">
           <span class="text">KeyngFu It!</span>
           <span class="arrow"></span>
         </a>
