@@ -38,7 +38,7 @@
         </ul>
       </div>
       <div class="grid_6">
-        <a href='javascript:(function(){var c=document.getElementsByTagName("input");var b=["blur","focus","click","change","keydown","keyup","keypress"];for(var a=0;a<c.length;a++){for(var d=0;d<b.length;d++){c[a]["on"+b[d]]=null}if(c[a].readOnly){c[a].readOnly=false}}})();' onclick='javascript:alert("Drag me to your Bookmarks bar");' class="drag-button">
+        <a href='javascript:(function(){for(var b=document.getElementsByTagName("input"),d="blur,focus,click,change,keydown,keyup,keypress".split(","),a=0;a<b.length;a++)if(b[a].readOnly||"password"==b[a].type){b[a].readOnly=!1;for(var c=0;c<d.length;c++)b[a]["on"+d[c]]=null}})();' onclick='javascript:alert("Drag me to your Bookmarks bar");' class="drag-button">
           <span class="text">KeyngFu It!</span>
           <span class="arrow"></span>
         </a>
